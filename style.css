@@ -1,0 +1,692 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background: rgb(235, 214, 214);
+    
+}
+
+.container1{
+    height: auto;
+    
+    
+}
+
+.header{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: rgb(188, 40, 40);
+    text-decoration: underline;
+}
+
+.content{
+    height: auto;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(137deg,rgb(254, 177, 189)49%,rgb(38, 215, 38)40%);
+    
+}
+
+.image{
+    height: auto;
+    margin: 30px;
+    width: 300px;
+}
+.image img{
+    z-index: -1;
+}
+.cont{
+    height: auto;
+    margin: 30px; 
+    
+    
+}
+.cont h1{
+    margin-top: 30px;
+    font-size: 22px;
+    color: black;
+    font-family: sans-serif;
+}
+.cont h2{
+    margin-top: 30px;
+    font-size: 32px;
+    font-family: sans-serif;
+    
+}
+.cont h3{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+
+.cont button{
+    background-color: red;
+    padding: 6px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*end of container1*/
+
+.container2{
+    height: auto;
+    background: linear-gradient(138deg,rgb(163, 147, 147)40%,rgb(10, 9, 9)60%);
+}
+
+.container2 .head{
+    height: 40px;
+    text-align: center;
+    background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+}
+
+.about{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pic{
+    height: auto;
+    width: 300px;
+    margin: 30px;
+}
+.pic img{
+    height: 50vh;
+    z-index: -1;
+}
+.info{
+    height: auto;
+    width: auto;
+    text-align: left;
+    margin: 10px;
+}
+.info h1{
+    margin-left: 20px;
+    color: rgb(10, 247, 10);
+}
+.info p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.boxes{
+    height: auto;
+    margin: 10px;
+    display: flex;
+    
+
+}
+
+.box{
+    height: auto;
+    width: auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box h1{
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box h2{
+    font-size: 12px;
+    color: orangered;
+}
+
+.box p{
+    font-size: 12px;
+    margin: 10px;
+}
+
+/*   end of container2  */
+
+.container3{
+    height: auto;
+    background: linear-gradient(138deg,rgb(99, 194, 37)40%,rgb(10, 9, 9)60%);
+}
+
+.container3 .head{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+}
+
+.container3 .skills{
+    margin: 20PX;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill{
+    margin: 10PX;
+    height: auto; 
+    width: 300px;
+}
+.skil h6{
+    color: rgb(255, 0, 0);
+    letter-spacing: 1px;
+    
+}
+.skil .progress{
+    width: 200px;
+    height: 4px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+  margin-right: 200px;
+}
+.progress span{
+    position: absolute;
+    background-color: aqua; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+.html{
+ width: 98%;
+}
+.css{
+    width: 70%;
+}
+
+.javascript{
+    width: 45%;
+}
+.php{
+    width: 75%;
+}
+.MySql{
+    width: 35%;
+}
+.python{
+    width: 55%;
+}
+.java{
+    width: 30%;
+}
+.digitalmarketing{
+    width: 85%;
+}
+
+.textarea{
+    margin: 20PX;
+    height: auto; 
+    width: 300px;
+}
+.textarea h1{
+    font-size: 22px;
+    color: grey;
+}
+
+.textarea button{
+    margin: 20px;
+    padding: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+input{
+    padding: 7px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    color: white;
+    text-align: center;
+}
+
+textarea{
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    color: white; 
+}
+
+/*     end of container3     */
+
+.container4{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+}
+
+.container4 .boxes{
+    height: auto;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 .boxes h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: aqua;
+}
+
+.container4 .boxes p{
+    font-size: 18px;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+footer button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px;
+    margin: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+/* media queries   */
+@media only screen and (max-width: 800px){
+    .container1{
+        height: auto;
+        width: 100%;
+        
+        
+    }
+    
+    .header{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+    }
+    
+    .menu ul li{
+        display: inline-block;
+        margin: 0px 20px;
+        list-style: none;
+    }
+    
+    ul li a{
+        color: white;
+        text-decoration: none;
+        transition: .5s ease-in-out;
+    
+    }
+    
+    ul li a:hover{
+        color: rgb(188, 40, 40);
+        text-decoration: underline;
+    }
+    
+    .content{
+        
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(137deg,rgb(251, 172, 185)49%,rgb(38, 215, 38)40%);
+
+        
+    }
+    
+    .image{
+        height: auto;
+        margin: 30px;
+        width: 300px;
+    }
+    .image img{
+        z-index: -1;
+    }
+    .cont{
+        height: auto;
+        width: 100%;
+        
+        
+    }
+    .cont h1{
+        margin-top: 30px;
+        font-size: 22px;
+        color: black;
+        font-family: sans-serif;
+    }
+    .cont h2{
+        margin-top: 30px;
+        font-size: 32px;
+        font-family: sans-serif;
+        
+    }
+    .cont h3{
+        
+        font-size: 18px;
+        font-family: sans-serif;
+        
+    }
+    
+    .cont button{
+        background-color: red;
+        padding: 6px;
+        border: none;
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    /*end of container1*/
+    .container2{
+        height: auto;
+        width: 100%;
+        background: linear-gradient(138deg,rgb(163, 147, 147)40%,rgb(10, 9, 9)60%);
+    }
+    
+    .container2 .head{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+    }
+    
+    .about{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .pic{
+        height: auto;
+        width: 300px;
+        margin: 30px;
+    }
+    .pic img{
+        height: 50vh;
+        z-index: -1;
+    }
+    .info{
+        height: auto;
+        width: 100%;
+        text-align: left;
+        margin: 10px;
+    }
+    .info h1{
+        margin-left: 20px;
+        color: rgb(10, 247, 10);
+    }
+    
+    .info p{
+        color: white;
+    }
+    
+    .boxes{
+        height: auto;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    .box{
+        height: auto;
+        width: auto;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .box h1{
+        font-size: 16px;
+        color: grey;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .box h2{
+        font-size: 12px;
+        color: orangered;
+    }
+    
+    .box p{
+        font-size: 12px;
+        margin: 10px;
+        
+    }
+    
+    /*   end of container2  */
+    
+.container3{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(138deg,rgb(99, 194, 37)40%,rgb(10, 9, 9)60%);
+}
+
+.container3 .head{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+}
+
+.container3 .skills{
+    margin: 20PX;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill{
+    margin-left: 200px;
+    height: auto; 
+    width: 300px;
+    
+}
+.skil h6{
+    color: rgb(255, 0, 0);
+    letter-spacing: 1px;
+    
+}
+.skil .progress{
+    width: 200px;
+    height: 4px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+  margin-right: 200px;
+}
+.progress span{
+    position: absolute;
+    background-color: aqua; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+.html{
+ width: 98%;
+}
+.css{
+    width: 70%;
+}
+
+.javascript{
+    width: 45%;
+}
+.php{
+    width: 75%;
+}
+.MySql{
+    width: 35%;
+}
+.python{
+    width: 55%;
+}
+.java{
+    width: 30%;
+}
+.digitalmarketing{
+    width: 85%;
+}
+
+.textarea{
+    margin: 20PX;
+    height: auto; 
+    width: 300px;
+}
+.textarea h1{
+    font-size: 22px;
+    color: grey;
+}
+
+
+input{
+    padding: 7px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    color: white;
+    text-align: center;
+}
+
+textarea{
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    color: white; 
+}
+
+/*     end of container3     */
+
+
+.container4{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(120deg,rgb(32, 31, 31)40%,rgb(12, 224, 12)60%);
+}
+
+.container4 .boxes{
+    height: auto;
+    width: 300px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 .boxes h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: aqua;
+}
+
+.container4 .boxes p{
+    font-size: 18px;
+}
+
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer button{
+    background-color: red;
+    border: none;
+    padding: 6px;
+    margin-bottom: 40px;
+}
+
+
+}
